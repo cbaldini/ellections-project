@@ -1,0 +1,24 @@
+{
+  "properties": [
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "JWT encryption secret key."
+    },
+    {
+      "name": "jwt.expiration",
+      "type": "java.lang.String",
+      "description": "JWT expiration time in Minutes."
+    },
+    {
+      "name": "email.sender",
+      "type": "java.lang.String",
+      "description": "Sender E-Mail address to display from SendGrid (example: noreply@domain.com)."
+    },
+    {
+      "name": "email.response",
+      "type": "java.lang.String",
+      "description": "Response E-Mail address for SendGrid responses (example: issues@domain.com)."
+    }
+  ]
+}
